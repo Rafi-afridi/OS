@@ -1,0 +1,157 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 10:19 ?        00:00:01 /sbin/init splash
+root         2     0  0 10:19 ?        00:00:00 [kthreadd]
+root         4     2  0 10:19 ?        00:00:00 [kworker/0:0H]
+root         5     2  0 10:19 ?        00:00:00 [kworker/u2:0]
+root         6     2  0 10:19 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 10:19 ?        00:00:00 [ksoftirqd/0]
+root         8     2  0 10:19 ?        00:00:00 [rcu_sched]
+root         9     2  0 10:19 ?        00:00:00 [rcu_bh]
+root        10     2  0 10:19 ?        00:00:00 [migration/0]
+root        11     2  0 10:19 ?        00:00:00 [watchdog/0]
+root        12     2  0 10:19 ?        00:00:00 [cpuhp/0]
+root        13     2  0 10:19 ?        00:00:00 [kdevtmpfs]
+root        14     2  0 10:19 ?        00:00:00 [netns]
+root        15     2  0 10:19 ?        00:00:00 [rcu_tasks_kthre]
+root        16     2  0 10:19 ?        00:00:00 [kauditd]
+root        17     2  0 10:19 ?        00:00:00 [khungtaskd]
+root        18     2  0 10:19 ?        00:00:00 [oom_reaper]
+root        19     2  0 10:19 ?        00:00:00 [writeback]
+root        20     2  0 10:19 ?        00:00:00 [kcompactd0]
+root        21     2  0 10:19 ?        00:00:00 [ksmd]
+root        22     2  0 10:19 ?        00:00:00 [khugepaged]
+root        23     2  0 10:19 ?        00:00:00 [crypto]
+root        24     2  0 10:19 ?        00:00:00 [kintegrityd]
+root        25     2  0 10:19 ?        00:00:00 [kblockd]
+root        26     2  0 10:19 ?        00:00:00 [ata_sff]
+root        27     2  0 10:19 ?        00:00:00 [md]
+root        28     2  0 10:19 ?        00:00:00 [edac-poller]
+root        29     2  0 10:19 ?        00:00:00 [devfreq_wq]
+root        30     2  0 10:19 ?        00:00:00 [watchdogd]
+root        34     2  0 10:19 ?        00:00:00 [kswapd0]
+root        35     2  0 10:19 ?        00:00:00 [ecryptfs-kthrea]
+root        77     2  0 10:19 ?        00:00:00 [kthrotld]
+root        78     2  0 10:19 ?        00:00:00 [acpi_thermal_pm]
+root        79     2  0 10:19 ?        00:00:00 [scsi_eh_0]
+root        80     2  0 10:19 ?        00:00:00 [scsi_tmf_0]
+root        81     2  0 10:19 ?        00:00:00 [scsi_eh_1]
+root        82     2  0 10:19 ?        00:00:00 [scsi_tmf_1]
+root        83     2  0 10:19 ?        00:00:00 [kworker/u2:2]
+root        84     2  0 10:19 ?        00:00:00 [kworker/u2:3]
+root        88     2  0 10:19 ?        00:00:00 [ipv6_addrconf]
+root        97     2  0 10:19 ?        00:00:00 [kstrp]
+root       114     2  0 10:19 ?        00:00:00 [charger_manager]
+root       155     2  0 10:19 ?        00:00:00 [kworker/0:2]
+root       158     2  0 10:19 ?        00:00:00 [kworker/0:1H]
+root       159     2  0 10:19 ?        00:00:00 [scsi_eh_2]
+root       160     2  0 10:19 ?        00:00:00 [scsi_tmf_2]
+root       161     2  0 10:19 ?        00:00:00 [ttm_swap]
+root       162     2  0 10:19 ?        00:00:00 [irq/18-vmwgfx]
+root       185     2  0 10:19 ?        00:00:00 [jbd2/sda1-8]
+root       186     2  0 10:19 ?        00:00:00 [ext4-rsv-conver]
+root       218     1  0 10:19 ?        00:00:00 /lib/systemd/systemd-journald
+root       242     1  0 10:19 ?        00:00:00 /lib/systemd/systemd-udevd
+root       364     2  0 10:19 ?        00:00:00 [iprt-VBoxWQueue]
+root       584     1  0 10:19 ?        00:00:00 /lib/systemd/systemd-logind
+root       587     1  0 10:19 ?        00:00:00 /usr/sbin/acpid
+message+   588     1  0 10:19 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+syslog     592     1  0 10:19 ?        00:00:00 /usr/sbin/rsyslogd -n
+root       593     1  0 10:19 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       598     1  0 10:19 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       617     1  0 10:19 ?        00:00:00 /usr/sbin/cron -f
+avahi      625     1  0 10:19 ?        00:00:00 avahi-daemon: running [rafi-VirtualBox.local]
+avahi      684   625  0 10:19 ?        00:00:00 avahi-daemon: chroot helper
+root       688     1  0 10:19 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       728     1  0 10:19 ?        00:00:00 /usr/sbin/lightdm
+root       751   728  1 10:19 tty7     00:00:09 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       802     1  0 10:19 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       842   593  0 10:19 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-4291bcd8-60dc-39d5-8751-5d3361b31e17-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+nobody     853   593  0 10:19 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root      1024     1  0 10:19 ?        00:00:00 /bin/sh /usr/lib/apt/apt.systemd.daily update
+whoopsie  1025     1  0 10:19 ?        00:00:00 /usr/bin/whoopsie -f
+root      1031     1  0 10:19 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      1038  1024  0 10:19 ?        00:00:00 /bin/sh /usr/lib/apt/apt.systemd.daily lock_is_held update
+root      1110   728  0 10:19 ?        00:00:00 lightdm --session-child 12 19
+root      1176     1  0 10:19 ?        00:00:00 /usr/lib/upower/upowerd
+colord    1286     1  0 10:19 ?        00:00:00 /usr/lib/colord/colord
+rtkit     1291     1  0 10:19 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+root      1484  1038  1 10:21 ?        00:00:13 /usr/bin/python3 /usr/bin/unattended-upgrade --download-only
+_apt      1497  1484  2 10:21 ?        00:00:17 /usr/lib/apt/methods/http
+rafi      1504     1  0 10:21 ?        00:00:00 /lib/systemd/systemd --user
+rafi      1505  1504  0 10:21 ?        00:00:00 (sd-pam)
+rafi      1510     1  0 10:21 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+rafi      1513  1110  0 10:21 ?        00:00:00 /sbin/upstart --user
+rafi      1604  1513  0 10:21 ?        00:00:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-sZdCikGllC
+rafi      1608  1513  0 10:21 ?        00:00:00 upstart-udev-bridge --daemon --user
+rafi      1618  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+rafi      1642  1513  0 10:21 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+rafi      1644  1513  0 10:21 ?        00:00:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+rafi      1647  1513  0 10:21 ?        00:00:00 upstart-file-bridge --daemon --user
+rafi      1650  1513  0 10:21 ?        00:00:00 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+rafi      1661  1513  0 10:21 ?        00:00:00 /usr/lib/gvfs/gvfsd
+rafi      1666  1513  0 10:21 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+rafi      1668  1650  0 10:21 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+rafi      1686  1650  0 10:21 ?        00:00:00 /usr/lib/ibus/ibus-ui-gtk3
+rafi      1688  1513  0 10:21 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+rafi      1695  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+rafi      1703  1513  0 10:21 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+rafi      1715  1703  0 10:21 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+rafi      1717  1513  0 10:21 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+rafi      1725  1650  0 10:21 ?        00:00:00 /usr/lib/ibus/ibus-engine-simple
+rafi      1736  1513  0 10:21 ?        00:00:00 gpg-agent --homedir /home/rafi/.gnupg --use-standard-socket --daemon
+rafi      1747  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+rafi      1749  1513  0 10:21 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+rafi      1762  1513  0 10:21 ?        00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+rafi      1770  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+rafi      1785  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+rafi      1786  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+rafi      1791  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+rafi      1797  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+rafi      1798  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+rafi      1799  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+rafi      1804  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+rafi      1806  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+rafi      1829  1513  0 10:21 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+rafi      1858  1513  0 10:21 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+rafi      1860  1513  0 10:21 ?        00:00:00 /usr/lib/dconf/dconf-service
+rafi      1864  1513  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+rafi      1902  1513  0 10:21 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+rafi      1925  1762  0 10:21 ?        00:00:00 nm-applet
+rafi      1932  1762  0 10:21 ?        00:00:02 nautilus -n
+rafi      1933  1762  0 10:21 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+rafi      1938  1513  0 10:21 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+rafi      1942  1762  0 10:21 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+rafi      1955  1762  0 10:21 ?        00:00:01 /usr/bin/gnome-software --gapplication-service
+root      1963     1  0 10:21 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+rafi      1974  1513  0 10:21 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+rafi      1979  1513  0 10:21 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+rafi      1980  1513  5 10:21 ?        00:00:34 compiz
+rafi      1985  1513  0 10:21 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+rafi      1991  1513  0 10:21 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      2022     1  0 10:21 ?        00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+rafi      2033  1902  0 10:21 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1902x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1902/2
+rafi      2044  1902  0 10:21 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1902x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1902/3
+rafi      2046  1513  0 10:21 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+rafi      2059  1513  0 10:21 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+rafi      2079  2059  0 10:22 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2059x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2059/2
+root      2084     2  0 10:22 ?        00:00:00 [kworker/0:5]
+rafi      2128  1762  0 10:22 ?        00:00:00 zeitgeist-datahub
+rafi      2135  1513  0 10:22 ?        00:00:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+rafi      2139  2135  0 10:22 ?        00:00:00 /usr/bin/zeitgeist-daemon
+rafi      2147  1513  0 10:22 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+rafi      2188  1762  0 10:22 ?        00:00:00 update-notifier
+root      2228     1  0 10:23 ?        00:00:00 /usr/bin/python3 /usr/sbin/aptd
+rafi      2235  1762  0 10:23 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root      2315     1  0 10:24 ?        00:00:00 /usr/sbin/cupsd -l
+root      2316     1  0 10:24 ?        00:00:00 /usr/sbin/cups-browsed
+lp        2320  2315  0 10:24 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+rafi      2397  1513  0 10:28 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+rafi      2426  1513  0 10:28 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/5
+rafi      2441  1513  0 10:28 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+root      2455     2  0 10:28 ?        00:00:00 [kworker/0:0]
+rafi      2483  1513  0 10:29 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+rafi      2495  1513  0 10:29 ?        00:00:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+rafi      2496  1513  0 10:29 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+rafi      2539  1513  0 10:29 ?        00:00:00 /usr/lib/gnome-terminal/gnome-terminal-server
+rafi      2546  2539  0 10:29 pts/4    00:00:00 bash
+rafi      2580  2546  0 10:33 pts/4    00:00:00 ps -ef
